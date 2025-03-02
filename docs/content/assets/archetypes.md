@@ -48,7 +48,6 @@ policy_assignments:
   - "Enable-AUM-CheckUpdates"
   - "Enable-DDoS-VNET"
   - "Enforce-AKS-HTTPS"
-  - "Enforce-ASR"
   - "Enforce-GR-KeyVault"
   - "Enforce-TLS-SSL-H224"
 policy_definitions: []

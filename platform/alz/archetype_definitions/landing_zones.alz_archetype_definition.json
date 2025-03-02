@@ -23,7 +23,6 @@
     "Enable-AUM-CheckUpdates",
     "Enable-DDoS-VNET",
     "Enforce-AKS-HTTPS",
-    "Enforce-ASR",
     "Enforce-GR-KeyVault",
     "Enforce-Subnet-Private",
     "Enforce-TLS-SSL-Q225"

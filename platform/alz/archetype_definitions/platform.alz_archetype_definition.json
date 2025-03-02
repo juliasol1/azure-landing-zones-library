@@ -11,7 +11,6 @@
     "Deploy-VMSS-ChangeTrack",
     "Deploy-VMSS-Monitoring",
     "Enable-AUM-CheckUpdates",
-    "Enforce-ASR",
     "Enforce-GR-KeyVault",
     "Enforce-Subnet-Private"
   ],
