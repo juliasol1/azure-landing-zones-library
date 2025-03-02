@@ -20,10 +20,8 @@
     "Deploy-vmHybr-Monitoring",
     "Deploy-VMSS-ChangeTrack",
     "Deploy-VMSS-Monitoring",
-    "Enable-AUM-CheckUpdates",
     "Enable-DDoS-VNET",
     "Enforce-AKS-HTTPS",
-    "Enforce-GR-KeyVault",
     "Enforce-Subnet-Private",
     "Enforce-TLS-SSL-Q225"
   ],
