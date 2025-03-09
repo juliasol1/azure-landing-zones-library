@@ -177,11 +177,5 @@
     "Modify-UDR"
   ],
   "policy_set_definitions": [],
-  "role_definitions": [
-    "Network-Subnet-Contributor",
-    "Application-Owners",
-    "Network-Management",
-    "Security-Operations",
-    "Subscription-Owner"
-  ]
+  "role_definitions": []
 }
