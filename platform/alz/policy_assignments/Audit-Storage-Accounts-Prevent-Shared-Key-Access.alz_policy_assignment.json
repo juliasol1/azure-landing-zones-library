@@ -1,0 +1,26 @@
+{
+  "type": "Microsoft.Authorization/policyAssignments",
+  "apiVersion": "2021-06-01",
+  "name": "Audit-Storage-Accounts-Prevent-Shared-Key-Access",
+  "dependsOn": [],
+  "properties": {
+    "description": "Audit requirement of Azure Active Directory (Azure AD) to authorize requests for your storage account. By default, requests can be authorized with either Azure Active Directory credentials or by using the account access key for Shared Key authorization. Azure AD provides superior security and ease of use over Shared Key and is recommended by Microsoft.",
+    "displayName": "Storage accounts should prevent shared key access (excluding storage accounts created by Databricks)",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/fd9903f1-38c2-4d36-8e44-5c1c20c561e8", 
+    "definitionVersion": "1.*.*",
+    "enforcementMode": "DoNotEnforce",
+    "nonComplianceMessages": [
+      {
+        "message": "Storage accounts should be configured to prevent shared key access. Please disable shared key access or require Azure AD authentication."
+      }
+    ],
+    "parameters": {
+      "effect": {
+        "value": "Audit"
+      }
+    },
+    "scope": "/providers/Microsoft.Management/managementGroups/placeholder",
+    "notScopes": []
+  },
+  "location": "westeurope"
+}
