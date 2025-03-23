@@ -8,7 +8,7 @@
     "displayName": "Deny virtual machines and virtual machine scale sets that do not use managed disk",
     "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/06a78e20-9358-41c9-923c-fb736d382a4d",
     "definitionVersion": "1.*.*",
-    "enforcementMode": "Default",
+    "enforcementMode": "DoNotEnforce",
     "nonComplianceMessages": [
       {
         "message": "Virtual machines and virtual machine scales sets {enforcementMode} use a managed disk."

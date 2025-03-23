@@ -8,7 +8,7 @@
     "displayName": "Resource Group and Resource locations should match",
     "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/0a914e76-4921-4c19-b460-a2d36003525a",
     "definitionVersion": "2.*.*",
-    "enforcementMode": "Default",
+    "enforcementMode": "DoNotEnforce",
     "nonComplianceMessages": [
       {
         "message": "Resources {enforcementMode} be deployed in the same region as the Resource Group."

@@ -8,7 +8,7 @@
     "displayName": "Deny the deployment of vWAN/ER/VPN gateway resources",
     "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/6c112d4e-5bc7-47ae-a041-ea2d9dccd749",
     "definitionVersion": "2.*.*",
-    "enforcementMode": "Default",
+    "enforcementMode": "DoNotEnforce",
     "nonComplianceMessages": [
       {
         "message": "vWAN/ER/VPN gateway resources {enforcementMode} not be deployed in the Corp landing zone."
