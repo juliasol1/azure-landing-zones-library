@@ -6,7 +6,7 @@
   "properties": {
     "description": "Require Azure SQL Managed Instance to use Microsoft Entra-only authentication. This policy doesn't block Azure SQL Managed instances from being created with local authentication enabled. It does block local authentication from being enabled on resources after creation.",
     "displayName": "Azure SQL Managed Instance should have Microsoft Entra-only authentication enabled",
-    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/4fa47bc7-bbfc-4c30-b71a-3b65968a98a2",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/0c28c3fb-c244-42d5-a9bf-f35f2999577b",
     "definitionVersion": "1.*.*",
     "enforcementMode": "DoNotEnforce",
     "nonComplianceMessages": [
