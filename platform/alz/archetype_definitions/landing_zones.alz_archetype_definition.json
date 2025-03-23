@@ -1,0 +1,23 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Azure/Azure-Landing-Zones-Library/main/schemas/archetype_definition.json",
+  "name": "corp",
+  "policy_assignments": [
+    "Deny-HybridNetworking",
+    "Deny-Public-IP-On-NIC",
+    "Deny-Public-IP",
+    "Deny-Storage-http",
+    "Deny-Storage-http",
+    "Enforce-Subnet-Private",
+    "Enforce-TLS-SSL-Q225",
+    "Audit-Azure-SQL-Database-Entra-Authentication",
+    "Audit-Azure-SQL-Managed-Instance-Entra-Authentication",
+
+    
+  ],
+  "policy_definitions": [
+    "Deny-VNET-Peer-Cross-Sub",
+    
+  ],
+  "policy_set_definitions": [],
+  "role_definitions": []
+}

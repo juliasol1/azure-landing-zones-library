@@ -1,7 +1,11 @@
 {
   "$schema": "https://raw.githubusercontent.com/Azure/Azure-Landing-Zones-Library/main/schemas/archetype_definition.json",
   "name": "root",
-  "policy_assignments": [],
+  "policy_assignments": [
+    "Audit-AppGW-WAF",
+    "Audit-ResourceRGLocation",
+    "Deny-UnmanagedDisk",
+  ],
   "policy_definitions": [],
   "policy_set_definitions": [],
   "role_definitions": []
