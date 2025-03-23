@@ -49,15 +49,6 @@
     },
     {
       "archetypes": [
-        "sandbox"
-      ],
-      "display_name": "Sandbox",
-      "exists": false,
-      "id": "sandbox",
-      "parent_id": "alz"
-    },
-    {
-      "archetypes": [
         "management"
       ],
       "display_name": "Management",
