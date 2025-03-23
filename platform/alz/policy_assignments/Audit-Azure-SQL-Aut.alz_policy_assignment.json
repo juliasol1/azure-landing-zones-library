@@ -1,7 +1,7 @@
 {
   "type": "Microsoft.Authorization/policyAssignments",
   "apiVersion": "2024-04-01",
-  "name": "Audit-Azure-SQL-Database-Entra-Authentication",
+  "name": "Audit-Azure-SQL-Aut",
   "dependsOn": [],
   "properties": {
     "description": "Require Azure SQL logical servers to use Microsoft Entra-only authentication. This policy doesn't block servers from being created with local authentication enabled. It does block local authentication from being enabled on resources after creation.",

@@ -1,7 +1,7 @@
 {
   "type": "Microsoft.Authorization/policyAssignments",
   "apiVersion": "2021-06-01",
-  "name": "Audit-Storage-Accounts-Prevent-Shared-Key-Access",
+  "name": "Audit-Storage-Key-Access",
   "dependsOn": [],
   "properties": {
     "description": "Audit requirement of Azure Active Directory (Azure AD) to authorize requests for your storage account. By default, requests can be authorized with either Azure Active Directory credentials or by using the account access key for Shared Key authorization. Azure AD provides superior security and ease of use over Shared Key and is recommended by Microsoft.",

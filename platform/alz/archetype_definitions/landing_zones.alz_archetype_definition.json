@@ -8,8 +8,8 @@
     "Deny-Storage-http",
     "Deny-Storage-http",
     "Enforce-Subnet-Private",
-    "Audit-Azure-SQL-Database-Entra-Authentication",
-    "Audit-Azure-SQL-Managed-Instance-Entra-Authentication"
+    "Audit-Azure-SQL-Aut",
+    "Audit-Azure-SQL-MI-Aut"
 
     
   ],

@@ -5,7 +5,7 @@
     "Audit-AppGW-WAF",
     "Audit-ResourceRGLocation",
     "Deny-UnmanagedDisk",
-    "Audit-Storage-Accounts-Prevent-Shared-Key-Access"
+    "Audit-Storage-Key-Access"
   ],
   "policy_definitions": [],
   "policy_set_definitions": [],
