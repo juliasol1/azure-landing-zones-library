@@ -8,7 +8,6 @@
     "Deny-Storage-http",
     "Deny-Storage-http",
     "Enforce-Subnet-Private",
-    "Enforce-TLS-SSL-Q225",
     "Audit-Azure-SQL-Database-Entra-Authentication",
     "Audit-Azure-SQL-Managed-Instance-Entra-Authentication"
 
