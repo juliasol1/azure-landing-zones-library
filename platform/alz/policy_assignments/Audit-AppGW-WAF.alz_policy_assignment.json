@@ -22,5 +22,5 @@
     "scope": "/providers/Microsoft.Management/managementGroups/placeholder",
     "notScopes": []
   },
-  "location": "uksouth"
+  "location": "westeurope"
 }
