@@ -4,7 +4,7 @@
   "policy_assignments": [
     "Audit-AppGW-WAF",
     "Audit-ResourceRGLocation",
-    "Deny-UnmanagedDisk",
+    "Deny-UnmanagedDisk"
   ],
   "policy_definitions": [],
   "policy_set_definitions": [],

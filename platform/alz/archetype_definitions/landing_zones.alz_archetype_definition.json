@@ -10,13 +10,13 @@
     "Enforce-Subnet-Private",
     "Enforce-TLS-SSL-Q225",
     "Audit-Azure-SQL-Database-Entra-Authentication",
-    "Audit-Azure-SQL-Managed-Instance-Entra-Authentication",
+    "Audit-Azure-SQL-Managed-Instance-Entra-Authentication"
 
     
   ],
   "policy_definitions": [
-    "Deny-VNET-Peer-Cross-Sub",
-    
+    "Deny-VNET-Peer-Cross-Sub"
+
   ],
   "policy_set_definitions": [],
   "role_definitions": []
