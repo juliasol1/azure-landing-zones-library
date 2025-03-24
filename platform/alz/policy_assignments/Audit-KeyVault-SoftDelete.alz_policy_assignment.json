@@ -1,0 +1,26 @@
+{
+  "type": "Microsoft.Authorization/policyAssignments",
+  "apiVersion": "2021-06-01",
+  "name": "Audit-KeyVault-SoftDelete",
+  "dependsOn": [],
+  "properties": {
+    "description": "This policy audits whether key vaults have soft delete enabled.",
+    "displayName": "Audit Key Vault Soft Delete",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/1e66c121-a66a-4b1f-9b83-0fd99bf0fc2d",
+    "definitionVersion": "3.*.*",
+    "enforcementMode": "DoNotEnforce",
+    "nonComplianceMessages": [
+      {
+        "message": "Key vaults should have soft delete enabled to prevent accidental data loss."
+      }
+    ],
+    "parameters": {
+      "effect": {
+        "value": "Audit"
+      }
+    },
+    "scope": "/providers/Microsoft.Management/managementGroups/placeholder",
+    "notScopes": []
+  },
+  "location": "westeurope"
+}

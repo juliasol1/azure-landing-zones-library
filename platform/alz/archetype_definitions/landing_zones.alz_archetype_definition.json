@@ -9,13 +9,11 @@
     "Deny-Storage-http",
     "Enforce-Subnet-Private",
     "Audit-Azure-SQL-Aut",
-    "Audit-Azure-SQL-MI-Aut"
-
-    
+    "Audit-Azure-SQL-MI-Aut",
+    "Audit-KeyVault-SoftDelete"
   ],
   "policy_definitions": [
     "Deny-VNET-Peer-Cross-Sub"
-
   ],
   "policy_set_definitions": [],
   "role_definitions": []
