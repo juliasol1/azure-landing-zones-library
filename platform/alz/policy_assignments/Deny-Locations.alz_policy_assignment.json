@@ -1,0 +1,33 @@
+{
+  "type": "Microsoft.Authorization/policyAssignments",
+  "apiVersion": "2021-06-01",
+  "name": "Deny-Locations",
+  "dependsOn": [],
+  "properties": {
+    "description": "This policy restricts resource deployments to specified locations.",
+    "displayName": "Restrict Resource Deployment Locations",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/e56962a6-4747-49cd-b67b-bf8b01975c4c",
+    "definitionVersion": "1.*.*",
+    "enforcementMode": "DoNotEnforce",
+    "nonComplianceMessages": [
+      {
+        "message": "Resources must be deployed in the allowed locations: westeurope, europe, or northeurope."
+      }
+    ],
+    "parameters": {
+      "listOfAllowedLocations": {
+        "value": [
+          "westeurope",
+          "europe",
+          "northeurope"
+        ]
+      },
+      "effect": {
+        "value": "Deny"
+      }
+    },
+    "scope": "/providers/Microsoft.Management/managementGroups/placeholder",
+    "notScopes": []
+  },
+  "location": "westeurope"
+}
