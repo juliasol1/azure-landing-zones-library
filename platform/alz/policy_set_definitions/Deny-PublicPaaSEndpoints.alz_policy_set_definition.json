@@ -767,16 +767,6 @@
         "groupNames": [],
         "parameters": {
           "effect": {
-            "value": "[parameters('logicAppPublicNetworkAccessEffect')]"
-          }
-        },
-        "policyDefinitionId": "/providers/Microsoft.Management/managementGroups/contoso/providers/Microsoft.Authorization/policyDefinitions/Deny-LogicApp-Public-Network",
-        "policyDefinitionReferenceId": "Deny-LogicApp-Public-Network-Access"
-      },
-      {
-        "groupNames": [],
-        "parameters": {
-          "effect": {
             "value": "[parameters('appSlotsPublicNetworkAccess')]"
           }
         },
