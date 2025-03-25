@@ -436,15 +436,6 @@
         "defaultValue": "Deny",
         "type": "string"
       },
-      "logicAppPublicNetworkAccessEffect": {
-        "allowedValues": [
-          "Audit",
-          "Deny",
-          "Disabled"
-        ],
-        "defaultValue": "Deny",
-        "type": "String"
-      },
       "managedDiskPublicNetworkAccess": {
         "allowedValues": [
           "Audit",
