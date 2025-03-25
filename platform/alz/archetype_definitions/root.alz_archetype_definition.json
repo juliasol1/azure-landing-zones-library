@@ -6,7 +6,9 @@
     "Audit-ResourceRGLocation",
     "Deny-UnmanagedDisk",
     "Audit-Storage-Key-Access",
-    "Deny-Locations"
+    "Deny-Locations",
+    "Audit-SQL-Public-NA",
+    "Audit-KV-RBAC"
   ],
   "policy_definitions": [],
   "policy_set_definitions": [],

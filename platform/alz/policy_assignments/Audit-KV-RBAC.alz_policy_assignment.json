@@ -1,0 +1,26 @@
+{
+  "type": "Microsoft.Authorization/policyAssignments",
+  "apiVersion": "2021-06-01",
+  "name": "Audit-KV-RBAC",
+  "dependsOn": [],
+  "properties": {
+    "description": "This policy audits whether Azure Key Vaults use the RBAC permission model.",
+    "displayName": "Audit Key Vault RBAC Permission Model",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/12d4fa5e-1f9f-4c21-97a9-b99b3c6611b5",
+    "definitionVersion": "1.*.*",
+    "enforcementMode": "Default",
+    "nonComplianceMessages": [
+      {
+        "message": "Azure Key Vaults should use the RBAC permission model to ensure proper access control."
+      }
+    ],
+    "parameters": {
+      "effect": {
+        "value": "Audit"
+      }
+    },
+    "scope": "/providers/Microsoft.Management/managementGroups/placeholder",
+    "notScopes": []
+  },
+  "location": "westeurope"
+}

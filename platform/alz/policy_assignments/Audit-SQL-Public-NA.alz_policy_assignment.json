@@ -1,0 +1,26 @@
+{
+  "type": "Microsoft.Authorization/policyAssignments",
+  "apiVersion": "2021-06-01",
+  "name": "Audit-SQL-Public-NA",
+  "dependsOn": [],
+  "properties": {
+    "description": "This policy audits whether public network access on Azure SQL Database is disabled.",
+    "displayName": "Audit Public Network Access on Azure SQL Database",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/1b8ca024-1d5c-4dec-8995-b1a932b41780",
+    "definitionVersion": "1.1.0",
+    "enforcementMode": "Default",
+    "nonComplianceMessages": [
+      {
+        "message": "Public network access on Azure SQL Database should be disabled to improve security."
+      }
+    ],
+    "parameters": {
+      "effect": {
+        "value": "Audit"
+      }
+    },
+    "scope": "/providers/Microsoft.Management/managementGroups/placeholder",
+    "notScopes": []
+  },
+  "location": "westeurope"
+}
