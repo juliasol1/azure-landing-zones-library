@@ -1,0 +1,26 @@
+{
+  "type": "Microsoft.Authorization/policyAssignments",
+  "apiVersion": "2021-06-01",
+  "name": "Audit-Storage-Public",
+  "dependsOn": [],
+  "properties": {
+    "description": "This policy audits whether public access to Azure Storage accounts is disallowed.",
+    "displayName": "Audit Storage Account Public Access",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/4fa4b6c0-31ca-4c0d-b10d-24b96f62a751",
+    "definitionVersion": "3.1.1",
+    "enforcementMode": "Default",
+    "nonComplianceMessages": [
+      {
+        "message": "Storage accounts should not allow public access to prevent data breaches."
+      }
+    ],
+    "parameters": {
+      "effect": {
+        "value": "Audit"
+      }
+    },
+    "scope": "/providers/Microsoft.Management/managementGroups/placeholder",
+    "notScopes": []
+  },
+  "location": "westeurope"
+}

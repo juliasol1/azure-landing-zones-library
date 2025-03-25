@@ -10,7 +10,8 @@
     "Enforce-Subnet-Private",
     "Audit-Azure-SQL-Aut",
     "Audit-Azure-SQL-MI-Aut",
-    "Audit-KV-SoftDelete"
+    "Audit-KV-SoftDelete",
+    "Audit-Storage-Public"
   ],
   "policy_definitions": [
     "Deny-VNET-Peer-Cross-Sub"
@@ -18,4 +19,3 @@
   "policy_set_definitions": [],
   "role_definitions": []
 }
-
