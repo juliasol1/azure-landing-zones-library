@@ -11,7 +11,8 @@
     "Audit-Azure-SQL-Aut",
     "Audit-Azure-SQL-MI-Aut",
     "Audit-KV-SoftDelete",
-    "Audit-Storage-Public"
+    "Audit-Storage-Public",
+    "Deny-VNET-Peer-Cross-Sub"
   ],
   "policy_definitions": [
     "Deny-VNET-Peer-Cross-Sub"
