@@ -11,6 +11,8 @@
     "Audit-KV-RBAC"
   ],
   "policy_definitions": [],
-  "policy_set_definitions": [],
+  "policy_set_definitions": [
+    "Deny-PublicPaaSEndpoints"
+  ],
   "role_definitions": []
 }
