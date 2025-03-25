@@ -18,8 +18,7 @@
       "listOfAllowedLocations": {
         "value": [
           "westeurope",
-          "europe",
-          "northeurope"
+          "swedencentral"
         ]
       }
     },
