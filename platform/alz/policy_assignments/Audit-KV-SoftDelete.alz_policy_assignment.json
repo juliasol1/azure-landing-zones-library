@@ -1,7 +1,7 @@
 {
   "type": "Microsoft.Authorization/policyAssignments",
   "apiVersion": "2021-06-01",
-  "name": "Audit-KeyVault-SoftDelete",
+  "name": "Audit-KV-SoftDelete",
   "dependsOn": [],
   "properties": {
     "description": "This policy audits whether key vaults have soft delete enabled.",
