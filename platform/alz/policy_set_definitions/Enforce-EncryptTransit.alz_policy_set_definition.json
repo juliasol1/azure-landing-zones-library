@@ -500,19 +500,6 @@
         "groupNames": [],
         "parameters": {
           "effect": {
-            "value": "[parameters('PostgreSQLEnableSSLEffect')]"
-          },
-          "minimalTlsVersion": {
-            "value": "[parameters('PostgreSQLminimalTlsVersion')]"
-          }
-        },
-        "policyDefinitionId": "/providers/Microsoft.Management/managementGroups/contoso/providers/Microsoft.Authorization/policyDefinitions/Deny-PostgreSql-http",
-        "policyDefinitionReferenceId": "PostgreSQLEnableSSLEffect"
-      },
-      {
-        "groupNames": [],
-        "parameters": {
-          "effect": {
             "value": "[parameters('RedisTLSDeployEffect')]"
           },
           "minimumTlsVersion": {
