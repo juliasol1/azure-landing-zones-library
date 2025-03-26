@@ -8,7 +8,7 @@
     "displayName": "Deny vNet peering cross subscription.",
     "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/Deny-VNET-Peer-Cross-Sub",
     "definitionVersion": "1.1.0",
-    "enforcementMode": "Default",
+    "enforcementMode": "DoNotEnforce",
     "nonComplianceMessages": [
       {
         "message": "vNet peerings should only be created within the same subscription."

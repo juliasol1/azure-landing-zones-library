@@ -8,7 +8,7 @@
     "displayName": "Audit Key Vault RBAC Permission Model",
     "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/12d4fa5e-1f9f-4c21-97a9-b99b3c6611b5",
     "definitionVersion": "1.*.*",
-    "enforcementMode": "Default",
+    "enforcementMode": "DoNotEnforce",
     "nonComplianceMessages": [
       {
         "message": "Azure Key Vaults should use the RBAC permission model to ensure proper access control."
