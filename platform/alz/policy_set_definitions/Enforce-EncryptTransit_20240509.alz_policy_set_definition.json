@@ -528,19 +528,6 @@
         "groupNames": [],
         "parameters": {
           "effect": {
-            "value": "[parameters('AppServiceTlsVersionEffect')]"
-          },
-          "minTlsVersion": {
-            "value": "[parameters('AppServiceminTlsVersion')]"
-          }
-        },
-        "policyDefinitionId": "/providers/Microsoft.Management/managementGroups/contoso/providers/Microsoft.Authorization/policyDefinitions/Append-AppService-latestTLS",
-        "policyDefinitionReferenceId": "AppServiceminTlsVersion"
-      },
-      {
-        "groupNames": [],
-        "parameters": {
-          "effect": {
             "value": "[parameters('FunctionLatestTlsEffect')]"
           }
         },
