@@ -691,19 +691,6 @@
         "groupNames": [],
         "parameters": {
           "effect": {
-            "value": "[parameters('SQLServerTLSDeployEffect')]"
-          },
-          "minimalTlsVersion": {
-            "value": "[parameters('SQLServerminTlsVersion')]"
-          }
-        },
-        "policyDefinitionId": "/providers/Microsoft.Management/managementGroups/contoso/providers/Microsoft.Authorization/policyDefinitions/Deploy-SQL-minTLS",
-        "policyDefinitionReferenceId": "SQLServerTLSDeployEffect"
-      },
-      {
-        "groupNames": [],
-        "parameters": {
-          "effect": {
             "value": "[parameters('SQLServerTLSEffect')]"
           },
           "minimalTlsVersion": {
