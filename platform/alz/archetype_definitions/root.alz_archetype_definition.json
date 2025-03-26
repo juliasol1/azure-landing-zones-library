@@ -9,16 +9,11 @@
     "Deny-Locations",
     "Audit-SQL-Public-NA",
     "Audit-KV-RBAC",
-    "Deny-Public-Endpoints",
-    "Enforce-TLS-SSL-Q225",
-    "Enforce-TLS-SSL-H224"
+    "Deny-Public-Endpoints"
   ],
   "policy_definitions": [],
   "policy_set_definitions": [
-    "Deny-PublicPaaSEndpoints",
-    "Enforce-Encryption-CMK_20250218",
-    "Enforce-EncryptTransit_20240509",
-    "Enforce-EncryptTransit_20241211"
+    "Deny-PublicPaaSEndpoints"
   ],
   "role_definitions": []
 }
