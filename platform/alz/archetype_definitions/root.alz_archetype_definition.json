@@ -18,8 +18,7 @@
     "Deny-PublicPaaSEndpoints",
     "Enforce-Encryption-CMK_20250218",
     "Enforce-EncryptTransit_20240509",
-    "Enforce-EncryptTransit_20241211",
-    "Enforce-EncryptTransit"
+    "Enforce-EncryptTransit_20241211"
   ],
   "role_definitions": []
 }
